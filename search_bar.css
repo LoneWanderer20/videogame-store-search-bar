@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+.searchCont {
+	width: 800px;
+	position: relative;
+	margin: 0 auto;
+}
+.searchBarCont {
+	width: 800px;
+	height: 45px;
+	padding: 10px 0;
+	background: #212121;
+}
+.searchBar {
+	width: 540px;
+	height: 40px;
+	display: inline;
+	float: left;
+	margin-left: 110px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.searchButton {
+	width: 40px;
+	height: 40px;
+	display: inline;
+	float: left;
+	background-image: url(search_bar_images/search_icon.png);
+	border: none;
+}
+.platformCont {
+	width: 199px;
+	height: 30px;
+	background: #1111FF;
+	border-right: 1px solid #212121;
+	float: left;
+	text-align: center;
+}
+.platformCont:hover {
+	background: #212121;
+}
+.platformCont:active {
+	background: #1111FF;
+}
+.platformCont>h4 {
+	color: #fff;
+	margin-top: 6px;
+}
+.searchItem {
+	width: 158px;
+	height: 290px;
+	float: left;
+	padding: 10px 20px 0 20px;
+	border: 1px solid #212121;
+}
+.itemImage {
+	width: auto;
+	height: 130px;
+	display: block;
+	margin: 10px auto;
+	border: none;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.itemTitle {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin: 15px 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+}
+.itemSellType {
+	width: 78px;
+	float: left;
+	text-align: left;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+.itemPrice {
+	width: 78px;
+	float: left;
+	text-align: right;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+.itemStock {
+	margin-top: 45px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
